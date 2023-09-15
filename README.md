@@ -28,11 +28,11 @@ in your tinyMCE toolbar, tu use it, just select the content you need, hit the bu
 
 something that may also be useful, if you hit the button without selecting anything before, it will simply create a div with an empty p inside
 
-TinyMCE automatically adds an empty p after the div, probably to help you write outside of it if it were the last element of the content, of course you can delete it with a simple Enter or (what i always do even without this plugin) using pw tiny option that will delete ampty p's after saving
+TinyMCE automatically adds an empty p after the div, probably to help you write outside of it if it were the last element of the content, of course you can delete it with a simple Enter or (what i always do even without this plugin) using pw tiny option that will delete empty p's after saving
 
 ![markup_toggle](https://github.com/virtualgadjo/pw-tinymce-div-plugin/assets/13590/23e5167a-b936-4d58-b9a4-99ceabe79cd9)
 
 ---
-Of course, you can modify whatever you want in the plugin code, remove the div class (just here to help seeing the result and select it afterwards to change its class as you can add as many div.ziclass {} in the css textarea), change or remove the text in the toolbar (leave empty single quotes), change or remove the tooltip (here you can simply delete the line)...
+Of course, you can modify whatever you want in the plugin code, remove the div class (just here to help seeing the result and select it afterwards to change its class as you can add as many div.ziclass {} you want in the css textarea), change or remove the text in the toolbar (leave empty single quotes), change or remove the tooltip (here you can simply delete the line)...
 
 long story short, do whatever you want and need with it :)
