@@ -29,7 +29,7 @@ tinymce.PluginManager.add('wdiv', (editor, url) => {
 		],
 		onSubmit: (api) => {
 			const data = api.getData();
-			/* wrap the selected text with abbr and a title attribute if the full def is not empty */
+			/* wrap the selected text with a div having a class */
 			let cnt = editor.selection.getContent({format: 'html'});
 			if(data.ziclass != '') {
 				editor.insertContent(`<div class="${data.ziclass}">${cnt}</div>`);
