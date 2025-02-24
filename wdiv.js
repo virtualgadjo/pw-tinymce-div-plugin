@@ -29,7 +29,7 @@ tinymce.PluginManager.add('wdiv', (editor, url) => {
 		],
 		onSubmit: (api) => {
 			const data = api.getData();
-			/* wrap the selected text with a div having a class */
+			/* wrap the selected text/html with a div having a class */
 			let cnt = editor.selection.getContent({format: 'html'});
 			if(data.ziclass != '') {
 				editor.insertContent(`<div class="${data.ziclass}">${cnt}</div>`);
@@ -46,7 +46,7 @@ tinymce.PluginManager.add('wdiv', (editor, url) => {
 		icon: 'divcode',
 		tooltip: "wrap with a div",
 		onAction: () => {
-			/* Open window */
+			/* Open dialog window */
 			openDialog();
 		}
 	});
