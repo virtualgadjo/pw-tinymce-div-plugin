@@ -2,6 +2,8 @@
 
 Tiny template plugin allows you to do far more but sometimes you have already written a long text and would just like to highlight some content, putting it in a nice background with a fancy left border, and so on, this could help you a little
 
+## Little update, i've added a dialog that allows you to choose the css class you want, if left empty, it will use the box class by default
+
 to install it in pw, put the js file where you want, e.g. /site/modules/tinymce (up to you)
 then go to modules -> configure -> InputfieldTinyMCE
 
