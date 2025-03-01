@@ -26,7 +26,7 @@ now you should see a new button
 
 ![button](https://github.com/virtualgadjo/pw-tinymce-div-plugin/assets/13590/896cbccb-1a76-423f-890a-71a00eb1f793)
 
-in your tinyMCE toolbar, tu use it, just select the content you need, hit the button and you'll see the result
+in your tinyMCE toolbar, to use it, just select the content you need, hit the button and you'll see the result
 
 something that may also be useful, if you hit the button without selecting anything before, it will simply create a div with an empty p inside
 
