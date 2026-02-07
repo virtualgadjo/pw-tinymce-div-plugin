@@ -4,7 +4,7 @@ Tiny template plugin allows you to do far more but sometimes you have already wr
 
 ## Little update, i've added a dialog that allows you to choose the css class you want, if left empty, it will use the ".box" class by default
 
-to install it in pw, put the js file where you want, e.g. /site/modules/tinymce (up to you)
+to install it in pw, put the js file whereever you want, e.g. /site/modules/tinymce (up to you)
 then go to modules -> configure -> InputfieldTinyMCE
 
 ![module_choosetiny](https://github.com/virtualgadjo/pw-tinymce-div-plugin/assets/13590/38987332-2b47-466a-95b1-be77bd2dcc8f)
